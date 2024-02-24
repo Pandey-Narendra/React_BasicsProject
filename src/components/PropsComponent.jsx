@@ -12,12 +12,12 @@
 
 //object de-structuring {  }, names should be same in passing and accessing data
 export default function PropsComponent({image,title,description}){
-  return(
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  );
+	return(
+	<li>
+		<img src={image} alt={title} />
+		<h3>{title}</h3>
+		<p>{description}</p>
+	</li>
+	);
 }
   
